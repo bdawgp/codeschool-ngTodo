@@ -1,0 +1,48 @@
+*
+{
+	font-family: 'Avenir', Arial, sans-serif;
+}
+
+body
+{
+	background: #ddd;
+}
+
+#content
+{
+	margin: 15px 0;
+	border-radius: 10px;
+	padding: 15px 0;
+
+	background: #fff;
+}
+
+input.edit-item
+{
+	display: inline-block;
+	width: 70%;
+}
+
+#todo-list input[type="checkbox"]
+{
+	margin-right: 10px;
+}
+
+#todo-list .action-buttons
+{
+	margin-top: 7px;
+}
+
+#todo-list .title
+{
+	display: inline-block;
+	height: 32px;
+	padding: 6px 11.5px;
+	margin: 1px;
+}
+
+#todo-list .title.complete
+{
+	text-decoration: line-through;
+}
+
